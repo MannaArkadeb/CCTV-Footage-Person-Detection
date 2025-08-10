@@ -6,6 +6,7 @@ It assigns unique IDs to each person using Torch ReID, logs their entry and exit
 
 
 ## Project Structure
+The input_video and output_video may not be visible directly inside Github, but they can be downloaded and then can be seen. I have removed the outputs from the code.ipynb file, in order to check the outputs, the link https://colab.research.google.com/drive/1AuNaZHjei1uKkbyO2xwgdkGDVZ1tMJ_O?usp=sharing  can be checked.
 ```
 ├── code.ipynb
 ├── byte_tracker.py
@@ -17,7 +18,7 @@ It assigns unique IDs to each person using Torch ReID, logs their entry and exit
 ## Input and Output
 A video (generally taken from CCTV footage) is given as input to my model. As output, it then gives a .csv log file showing time stamp of entry and exit of each person in hh:mm:ss and a video showing bounding boxes around each person detected in input video is formed.
 ## Requirements and Installation
-In this project following modules were installed. These installations are mostly done automatically in the code but only the byte_tracker.py file of yolox folder inside the ByteTrack folder. The edited file is also provided.
+In this project following modules were installed. These installations are mostly done automatically in the code but only the byte_tracker.py file of yolox folder inside the ByteTrack folder is edited. The edited file is also provided.
 
     1) Python 3.8+
 
